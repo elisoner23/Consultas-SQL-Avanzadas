@@ -4,10 +4,10 @@
 
 ## Base de Datos
 
-| Tecnología | Versión | Propósito |
-|------------|---------|-----------|
-| PostgreSQL | 15+ | Base de datos relacional |
-| SQL | ANSI SQL | Gestión de consultas y relaciones |
+| Tecnología | Versión |           Propósito               |
+|------------|---------|-----------------------------------|
+| PostgreSQL | 15+     | Base de datos relacional          |
+| SQL        |ANSI SQL | Gestión de consultas y relaciones |
 
 ---
 
@@ -17,6 +17,7 @@ El sistema está diseñado para administrar alojamientos turísticos, reservas, 
 
 ## Arquitectura de Base de Datos
 
+```text
               ┌───────────────────┐
               │   propietarios    │
               │-------------------│
@@ -90,11 +91,12 @@ El sistema está diseñado para administrar alojamientos turísticos, reservas, 
 
 ## Entidades del Sistema
 
-| Entidad | Descripción |
-|---------|------------|
-| Propietarios | Gestionan los alojamientos |
+| Entidad      |          Descripción              |
+|--------------|-----------------------------------|
+| Propietarios | Gestionan los alojamientos        |
 | Alojamientos | Lugares disponibles para reservar |
-| Huéspedes | Usuarios que realizan reservas |
-| Reservas | Registro de estancias |
-| Pagos | Control financiero |
-| Reseñas | Opiniones y calificaciones |
+| Huéspedes    | Usuarios que realizan reservas    |
+| Reservas     | Registro de estancias             |
+| Pagos        | Control financiero                |
+| Reseñas      | Opiniones y calificaciones        |
+
